@@ -1,0 +1,127 @@
+body{
+	font: 14px/20px arial, times new roman;
+	background-color: #008b8b;
+	}
+
+
+.container {
+	width: 1300px;
+	height: 600px;
+	margin: 20px auto;
+    background-color: white;
+    position: relative;
+    background-image: url(../img/gugur.jpg);
+	border: 10px black solid;
+
+}
+
+.header-1 {
+	font-family: Arial;
+	font-size: 40px;
+	text-align: center;
+	margin: 15px 15px 50px 50px;
+	padding: 20px;
+	width: 250px;
+	left: 100px;
+	background-color: rgba(22,22,22,.2);
+	display: inline-block;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+}
+
+ul li {
+	display: inline-block;
+	margin-top: -40px;
+	margin-left: 20px;
+
+	
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+ul li a:hover {
+	background-color: lightskyblue;
+}
+
+h2 {
+	color: white;
+	margin-top: 20px;
+	margin-left: 473px;
+	padding: 30px 80px;
+	background-color: maroon;
+	display: inline-block;
+	border-radius: 10px;
+	font-size:40px;
+	text-align: center;
+	font-family: Arial;
+}
+
+p {
+	color: white;
+	margin-top: 50px;
+	margin-left: 495px;
+	padding: 30px 80px;
+	background-color: maroon;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*clear fix*/
+/*
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

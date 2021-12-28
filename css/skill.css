@@ -1,0 +1,76 @@
+body {
+	font: 14px/20px arial, times new roman;
+	background-color: maroon;
+	}
+
+.container {
+	width: 900px;
+	height: 600px;
+	background-color: black;
+	border: 10px black solid;
+	position: relative;
+	top: 20px;
+	left: 250px;
+}
+.header {
+	padding: 20px 0;
+	color: white;
+}
+.header h1 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 40px;
+	text-decoration: underline;
+}
+.konten {
+	width: 780px;
+	height: 200px;
+	padding: 55px;
+	margin-top: 80px;
+	background-color: white;
+	color: black;
+	border: 5px black solid;
+}
+.heading {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.skill {
+	display: inline-block;
+	padding: 30px;
+	margin-left: 23px;
+}
+.skill-icon p {
+	text-align: center;
+	margin-top: 10px;
+}
+.txt-contents {
+	margin-top: 10px;
+	text-align: center;
+}
+.home {
+	text-decoration: none;
+	color: white;
+	background-color: navy;
+	padding: 15px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+.home:hover {
+	background-color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+

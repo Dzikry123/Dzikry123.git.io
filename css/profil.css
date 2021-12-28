@@ -1,0 +1,89 @@
+body {
+	font: 14px/20px arial, times new roman;
+	background-color: #008b8b;
+	}
+
+.container {
+	width: 900px;
+	height: 600px;
+	background-color: white;
+	border: 10px black solid;
+	position: relative;
+	top: 20px;
+	left: 250px;
+}
+
+h1	{
+	text-align: center;
+	margin-top: 30px;
+	font-family: arial;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.gambar {
+	background-image: url(../img/dzikry.jpeg);
+	width: 268px;
+	height: 376px;
+	margin-left: 50px;
+	display: inline-block;
+	margin-top: 50px;
+	border: 5px black solid;
+}
+
+.pro {
+	float: right;
+	margin-right: 50px;
+	margin-top: 100px;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 17px;
+}
+ 
+.home {
+	margin-right: 50px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	border-radius: 10px;
+	float: right;
+}
+
+.home:hover {
+	background-color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
